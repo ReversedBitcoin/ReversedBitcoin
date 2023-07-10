@@ -2,9 +2,7 @@
 <ui version="4.0">
  <class>OverviewPage</class>
  <widget class="QLabel" name="OverviewPage">
-  <property name="windowModality">
-   <enum>Qt::NonModal</enum>
-  </property>
+
   <property name="enabled">
    <bool>true</bool>
   </property>
@@ -16,30 +14,7 @@
     <height>487</height>
    </rect>
   </property>
-  <property name="minimumSize">
-   <size>
-    <width>832</width>
-    <height>485</height>
-   </size>
-  </property>
-  <property name="maximumSize">
-   <size>
-    <width>832</width>
-    <height>487</height>
-   </size>
-  </property>
-  <property name="sizeIncrement">
-   <size>
-    <width>832</width>
-    <height>485</height>
-   </size>
-  </property>
-  <property name="baseSize">
-   <size>
-    <width>832</width>
-    <height>485</height>
-   </size>
-  </property>
+
   <property name="tabletTracking">
    <bool>false</bool>
   </property>

@@ -88,7 +88,7 @@ BitcoinGUI::BitcoinGUI(interfaces::Node& node, const PlatformStyle *_platformSty
 
 
 
-    this->setFixedSize(QSize(832, 553));
+    this->setFixedSize(QSize(832, 603));
     this->statusBar()->setSizeGripEnabled(false);
 
 #ifdef ENABLE_WALLET
