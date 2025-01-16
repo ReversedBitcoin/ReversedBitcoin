@@ -135,10 +135,7 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x0000000021f2bed6c2142ab2f5dbb3e5ce41f142875962edc8735cc2943214f2"));
         assert(genesis.hashMerkleRoot == uint256S("0x71bfacebcf45cfe340a323b2f03ee006da5687f4e09688d1bba77f386e60e69e"));
 
-        vSeeds.emplace_back("seed01.reversedbitcoin.org");
-        vSeeds.emplace_back("seed02.reversedbitcoin.org");
-        vSeeds.emplace_back("seed03.reversedbitcoin.org");
-        vSeeds.emplace_back("seed04.reversedbitcoin.org");
+        vSeeds.emplace_back("144.91.107.170");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,61);
